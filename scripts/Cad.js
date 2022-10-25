@@ -33,7 +33,7 @@ formCad.addEventListener("submit",(e)=>{
         alert(msg)
     }
     alert("Usuário Cadastrado com sucesso!")
-    location.href = "../inde.html"
+    location.href = "../index.html"
 })
 
 

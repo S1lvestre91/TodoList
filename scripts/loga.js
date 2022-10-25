@@ -13,11 +13,11 @@ usua.innerText = `Bem vindo, ${usuariologado.nome}`
 
 if(localStorage.getItem('token') == null){
     alert("Você precisa fazer login")
-    window.location.href = "../inde.html"
+    window.location.href = "../index.html"
 }
 function Sair(){
     localStorage.removeItem('token')
-    window.location.href = "../inde.html"
+    window.location.href = "../index.html"
 }
 
 const url = "https://localhost:7063/api/Tarefa"
