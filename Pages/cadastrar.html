@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Cadstyle.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <main class="container" hidden>
+        
+            <section class="containerLogin" >
+             <div>
+                 <h1 class="title">Cadastro</h1>
+             </div>
+             <form id="formC" class="formularioLogin" action="">
+                <div class="itemForm">
+                    <label name="Nome" for="Nome">Nome</label>
+                    <input id="Nome" type="text" required>
+                </div>
+                 <div class="itemForm">
+                     <label name="Email" for="Email">Email</label>
+                     <input id="Email" type="email" required>
+                 </div>
+                 <div class="itemForm">
+                     <label name="Senha" for="Senha">Senha</label>
+                     <input id="Senha" class="pass" type="password" required minlength="8" maxlength="12">
+                     <small>Senha deve conter entre 8 e 12 caracter</small>
+                 </div>
+                 <div class="itemForm">
+                    <label name="CSenha" for="CSenha">Confimar Senha</label>
+                    <input id="CSenha" class="pass" type="password"  required minlength="8" maxlength="12">
+                    <small>Senha deve conter entre 8 e 12 caracter</small>
+                </div>
+                <div class="btnFl">
+                    <a href="../inde.html">Cancelar</a>
+                    <button class="btn" type="submit">Cadastrar</button>
+                </div>
+             </form>
+         </section>
+        
+        </main> 
+        
+    <script src="../scripts/Cad.js"></script>
+</body>
+</html>

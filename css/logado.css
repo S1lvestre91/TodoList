@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;700&family=Poppins:wght@700&family=Roboto:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(30, 30, 29);
+  }
+  header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+  }
+  .title{
+    font-family: 'Lobster', cursive;
+    color: rgb(86, 255, 80);
+    margin-top: .2em;
+    font-size: 3em;
+    text-align: center;
+    /*text-shadow: 5px 2px 15px rgb(230,230,230)*/
+  }
+  .headr{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7em;
+    color: whitesmoke;
+    margin-top: 1em;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headr a {
+    font-size: .6em;
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    padding: 0.1em 1em;
+    border-radius: 1em;
+    background-color: rgb(86, 255, 80);
+  }
+  .menu{
+    width: 80%;
+    border-radius: 1em;
+    background-color: rgb(76, 77, 76);
+    margin-top: 1em;
+  }
+  /*responsivo*/
+  
+  #Formulario{
+    padding: 0.5em 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:.5em;
+  }
+  #Formulario label{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(86, 255, 80);
+    font-size: 1em;
+  }
+  #Formulario input{
+    padding-left: .5em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5em;
+    font-size: .9em;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+  }
+  .menu-iten{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:0.5em;
+  }
+  .btn{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    padding: .3em 2em;
+    border-radius: 1em;
+    color: rgb(9, 9, 9);
+    background-color: rgb(86, 255, 80);
+  }
+  .secaotbl{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  table{
+    width: 80%;
+    margin-bottom: 1rem;
+    border-spacing: 0 0.5rem;
+  }
+  table th {
+      font-family: 'Poppins', sans-serif;
+      background-color:rgb(86, 255, 80);
+      padding-bottom: 0.5rem;
+      text-align: left;
+      padding:0.5rem;
+      color:white;
+      color: black;
+      font-size: 1.1em;
+      font-weight: 800%;
+      
+  }
+  table td{
+      font-family: 'Poppins', sans-serif;
+      background-color:whitesmoke;
+      padding:0.2rem;
+  }
+  
+  .tdButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+  .card-link{
+    border: 0.1em solid rgba(0, 0, 0, 0.527);
+    border-radius: 0.4em;
+    padding: 0.1em .3em;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+  }
+  #ExcluirTarefa{
+    background-color: red;
+  }
+  #ExcluirTarefa:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    transition: 1s;
+  }
+  #EditarTarefa{
+    background-color: blue;
+  }
+  #EditarTarefa:hover{  
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    transition: 1s;
+  }

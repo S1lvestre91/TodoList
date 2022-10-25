@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/logado.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">ToDoLisT</h1>
+        <div class="headr">
+            <small class="usu" id="nomeUser"></small>
+            <a href="#" onclick="Sair()">Sair</a>
+        </div>
+        <div class="menu">
+            <form id="Formulario">
+              <div class="menu-iten">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" required maxlength="60">
+              </div>
+              <div class="menu-iten">
+                <label for="dataIni">Data de Inicio</label>
+                <input id="datai" type="date" name="dataIni" required>
+              </div>
+              <div class="menu-iten">
+                <label for="dataIni">Data do Fim</label>
+                <input id="dataf" type="date" name="dataIni" required>
+              </div>
+              <button class="btn" type="submit">Adicionar</button>
+            </form>
+          </div>
+
+    </header>
+    <section class="secaotbl">
+        <table id="tabela" >
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Nome</th>
+              <th>Data de Inicio</th>
+              <th>Data do Fim</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="t-body">
+           
+          </tbody>
+        </table>
+        
+      </section>
+    <script src="../scripts/loga.js"></script>
+</body>
+</html>

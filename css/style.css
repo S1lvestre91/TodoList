@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;700&family=Poppins:wght@700&family=Roboto:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(30, 30, 29);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: rgb(86, 255, 80);;
+    margin-bottom: 0.5em;
+}
+.containerLogin{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: rgb(76, 77, 76);
+    padding: 3em;
+    box-shadow: 2px 2px 30px 5px rgb(86, 255, 80);
+    transition: 2s;
+    border-radius: 1em;
+}
+.containerLogin:hover{
+    transition-timing-function: ease-in 2s;
+    box-shadow: 2px 2px 35px 6px rgb(41, 41, 41);
+}
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.itemForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+.itemForm input{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(86, 255, 80);
+    background-color: rgba(45, 45, 45, 0);
+    font-size: 1.1em;
+}
+.itemForm label{
+    font-family: 'Poppins', sans-serif;
+    color: #56ff50;
+    font-size: 1.1em;
+}
+.cadastra{
+    color: rgba(184, 184, 184, 0.687);
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -.9em;
+    text-align: right;
+}
+.cadastra a{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(86, 255, 80);
+}
+.button{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2em;
+    color: rgb(86, 255, 80);
+    background-color: rgb(55, 55, 54);
+    border-radius: 1em;
+    border: none;
+    padding: 0.4em;
+    font-size: 1.1em;
+}
+.button:hover{
+    color: rgb(30, 30, 29);
+    background-color: rgb(86, 255, 80);
+}
+
